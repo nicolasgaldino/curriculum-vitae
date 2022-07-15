@@ -1,0 +1,7 @@
+.btn {
+  padding: .8rem 1.2rem;
+  text-decoration: none;
+  background: linear-gradient(90deg, var(--light-gradient) 0%, var(--bold-gradient) 100%);
+  color: var(--white);
+  border-radius: 3rem;
+}
