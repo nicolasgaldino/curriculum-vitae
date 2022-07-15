@@ -1,8 +1,16 @@
-import React from 'react'
+import Main from './components/Main';
+import Sidebar from './components/Sidebar';
+import styles from './styles/components/App.module.css';
 
 const App = () => {
   return (
-    <div>App</div>
+    <>
+      <div className={styles.portfolio}>
+        <h1>Nícolas Galdino</h1>
+        <Sidebar />
+        <Main />
+      </div>
+    </>
   )
 }
 

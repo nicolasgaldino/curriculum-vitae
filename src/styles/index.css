@@ -1,5 +1,6 @@
 :root {
-  --white: #fefff1;
+  --white: #ffffff;
+  --light-white: #a6a6a6;
   --purple: #a162f7;
   --blue: #6f88fc;
   --cyan: #45e3ff;
@@ -7,16 +8,27 @@
   --green: #016170;
   --med-green: #009393;
   --light-green: #00e0c8;
+  --light-gradient: #fa5252;
+  --bold-gradient: #dd2476;
 }
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
 }
 
+body {
+  color: var(--white);
+  background: var(--green);
+}
 
+a,
+svg {
+  transition: 0.4s;
+}
 
 ::-webkit-scrollbar {
   width: 0.625rem;
