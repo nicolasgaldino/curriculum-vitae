@@ -1,0 +1,26 @@
+.socialNetworks {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin: 1rem 0;
+}
+
+.socialBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: .6rem;
+  background-color: var(--light-gradient);
+  border-radius: 5px;
+  color: var(--med-green);
+  font-size: 1.3rem;
+}
+
+.socialBtn:hover {
+  background: linear-gradient(90deg, var(--light-gradient) 0%, var(--bold-gradient) 100%);
+}
+
+.socialBtn:hover > svg {
+  color: var(--purple);
+}
