@@ -1,0 +1,39 @@
+.contactInfo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: var(--purple);
+  border-radius: 5px;
+  padding: 1rem;
+  margin-bottom: 2rem;
+  text-align: left;
+  width: 60%;
+}
+
+.contactInfo svg {
+  background-color: var(--black);
+  border-radius: 5px;
+  padding: 0.4rem;
+  width: 2rem;
+  height: 2rem;
+}
+
+.infoPhone {
+  color: var(--phoneColor);
+}
+
+.infoEmail {
+  color: var(--emailColor);
+}
+
+.infoLocation {
+  color: var(--locationColor);
+}
+
+.infoPhone,
+.infoEmail,
+.infoLocation {
+  display: flex;
+  gap: .8rem;
+}
