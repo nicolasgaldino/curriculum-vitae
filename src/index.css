@@ -1,3 +1,14 @@
+:root {
+  --white: #fefff1;
+  --purple: #a162f7;
+  --blue: #6f88fc;
+  --cyan: #45e3ff;
+  --light-cyan: #a5def1;
+  --green: #016170;
+  --med-green: #009393;
+  --light-green: #00e0c8;
+}
+
 * {
   margin: 0;
   padding: 0;
