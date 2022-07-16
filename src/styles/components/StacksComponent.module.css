@@ -1,0 +1,21 @@
+.stacksGrid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.stacksCard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+  border: 1px solid var(--black);
+  width: 45%;
+  border-radius: 5px;
+}
+
+.stackInfo h3 {
+  color: var(--white);
+  margin-bottom: 1rem;
+}

@@ -4,3 +4,33 @@
   border-radius: 5px;
   padding: 3rem;
 }
+
+.mainContent section {
+  display: flex;
+  flex-direction: column;
+}
+
+.mainContent section h2 {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  color: var(--white);
+  font-size: 2.2rem;
+  margin-bottom: 1.3rem;
+  gap: 1rem;
+}
+
+.mainContent section h2::after {
+  content: '';
+  background-color: var(--black);
+  height: 10px;
+  width: 90%;
+  border-radius: 5px;
+}
+
+.mainContent section p {
+  color: var(--white);
+  margin-bottom: 1rem;
+  font-size: 1.3rem;
+  line-height: 1.4rem;
+}
