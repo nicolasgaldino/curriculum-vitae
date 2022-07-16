@@ -1,32 +1,37 @@
 :root {
   --black: #000000;
   --white: #ffffff;
-  --light-white: #a6a6a6;
-  --purple: #a162f7;
-  --blue: #6f88fc;
-  --cyan: #45e3ff;
-  --light-cyan: #a5def1;
-  --green: #016170;
-  --med-green: #009393;
-  --light-green: #00e0c8;
-  --light-gradient: #fa5252;
-  --bold-gradient: #dd2476;
-  --phoneColor: #e93b81;
-  --emailColor: #6ab5b9;
-  --locationColor: #c17ceb;
+  --light-white: #F0F0FC;
+  --shadowColorA: #fcdf9f;
+  --shadowColorB: #bda777;
+  --shadowColorC: #7d6e4f;
+  --shadowColorD: #3d3627;
+  --shadowColorE: #e3c88f;
+  --light-gradient: #dbc64d;
+  --bold-gradient: #5c5320;
+  --phoneColor: #328026;
+  --emailColor: #ff0000;
+  --locationColor: #4651cc;
+  --htmlColor: #e44d26;
+  --cssColor: #1572b6;
+  --jsColor: #f0db4f;
+  --reactColor: #61dafb;
+  --pythonColor: #4b8bbe;
+  --gitColor: #e44d26;
 }
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  cursor: default;
   font-family: Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
 }
 
 body {
   color: var(--white);
-  background: var(--green);
+  background: var(--shadowColorD);
 }
 
 a,
@@ -39,10 +44,10 @@ svg {
 }
 
 ::-webkit-scrollbar-track {
-  background-color: var(--cyan);
+  background-color: var(--shadowColorC);
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: var(--blue);
+  background-color: var(--shadowColorA);
   border-radius: 3.125rem;
 }

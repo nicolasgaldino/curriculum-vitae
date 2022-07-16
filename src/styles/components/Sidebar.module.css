@@ -1,7 +1,7 @@
 .sideBar {
-  background: var(--med-green);
+  background: linear-gradient(90deg, var(--bold-gradient) 0%, var(--light-gradient) 100%);
   flex: 1 1 0;
-  border-radius: 5px;
+  border-radius: 0.3125rem;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -18,9 +18,12 @@
 }
 
 .title {
-  color: var(--light-white);
-  background-color: var(--light-cyan);
-  border-radius: 5px;
+  color: var(--white);
+  background-color: var(--shadowColorD);
+  border-radius: 0.3125rem;
+  font-weight: bold;
+  letter-spacing: .1rem;
   margin-top: 19rem;
+  margin-bottom: 1rem;
   padding: .8rem 1.2rem;
 }

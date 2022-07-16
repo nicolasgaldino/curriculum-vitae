@@ -1,6 +1,3 @@
-import Button from './Button';
-import styles from '../styles/components/AbouteMe.module.css';
-
 const AbouteMe = ({ text }) => {
 
   return (

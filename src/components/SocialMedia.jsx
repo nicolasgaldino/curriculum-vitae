@@ -14,6 +14,7 @@ const SocialMedia = () => {
       <section className={styles.socialNetworks}>
         {socialNetworks.map((item) => (
           <a
+          key={item.name}
           href={item.link}
           className={styles.socialBtn}
           id={item.name}

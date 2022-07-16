@@ -6,8 +6,8 @@ const Projects = () => {
     <>
       <section >
         <h2>Projetos</h2>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur, sit. Voluptatum facilis recusandae asperiores laudantium harum rem dolorum dolor minima.</p>
-        <span>
+        <p>Você pode acessar o meu perfil do Github, nele existem todos os meus projetos.</p>
+        <span className={styles.portfBtn}>
           <Button
             link="https://github.com/nicolasgaldino"
             text="Ver Portfólio"
